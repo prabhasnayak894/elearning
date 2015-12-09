@@ -13,13 +13,16 @@
 				<li>Buffered: {{buffered}}%</li>
 				<li>Loading: {{loading}}</li>
 				<li>Playing: {{playing}}</li>
+				<li>
+					<label>Caption</label>
+					<div ng-repeat="caption in video_json.captions" ng-if="currentTime >= caption.start_time && currentTime < caption.end_time">
+						{{caption.title}}
+					</div>
+				</li>
 			</ul>
 		</section>
 
-		<label>Caption</label>
-		<div ng-repeat="caption in video_json.captions" ng-if="currentTime >= caption.time">
-			{{caption.title}}
-		</div>
+
 		<video vi-screen></video>
 	</section>
 </div>

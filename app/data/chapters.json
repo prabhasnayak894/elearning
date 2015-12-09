@@ -137,28 +137,19 @@
 			"url": "data/video/big_buck_bunny_720p_1mb.mp4",
 			"captions": [
 				{
-					"time": 0,
+					"start_time": 0,
+					"end_time": 2,
 					"title": "Chapter 1 overview"
 				},
 				{
-					"time": 2,
+					"start_time": 2,
+					"end_time": 4,
 					"title": "By the time you completed this lesson you will understand"
 				},
 				{
-					"time": 4,
+					"start_time": 4,
+					"end_time": 5,
 					"title": "What service connect is?"
-				},
-				{
-					"time": 6,
-					"title": "Why it is important?"
-				},
-				{
-					"time": 7,
-					"title": "And how it works?"
-				},
-				{
-					"time": 9,
-					"title": "You will also learn how to help gest understand and register for service connect"
 				}
 			]
 		},
