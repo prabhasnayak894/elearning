@@ -1,0 +1,12 @@
+<div ng-repeat="question in questions">
+	<div class="btn btn-primary" data-drag="true" data-jqyoui-options="{revert: 'invalid'}" 
+		jqyoui-draggable="{animate:true}" index="{{$index}}" ng-repeat="answer in question.answers">
+		{{answer.title}}
+	</div>
+
+	<div class="thumbnail" data-drop="true" data-jqyoui-options jqyoui-droppable="{onDrop: 'dropComplete()'}" style='height:50px; color: #000000;'>
+		<div data-drag="false" data-jqyoui-options jqyoui-draggable>
+			{{question.title}}
+		</div>
+	</div>
+</div>

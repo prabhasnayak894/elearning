@@ -1,0 +1,17 @@
+<font>
+	<ul>
+		<li class="question-wrapper" ng-repeat="question in questions track by $index" id="question_{{$index}}" ng-init="question_id = $index">
+			<h2>{{question.title}}</h2>
+			<ul>
+				<li ng-repeat="answer in question.answers">
+					<input type="radio" name="answer_{{question_id}}" value="{{$index}}" /> {{answer.title}}
+				</li>
+			</ul>
+			<div ng-if="corrects[question_id] && corrects[question_id] == 'Yes'">Correct</div>
+			<div ng-if="corrects[question_id] && corrects[question_id] == 'No'">Wrong</div>
+		</li>
+		<li>
+			<input type="submit" value="Submit" ng-click="submit()"/>
+		</li>
+	</ul>
+</font>

@@ -1,0 +1,5 @@
+<div class="wrapper-welcome" ng-style="wrapper_style">
+	<h1 ng-if="h1" ng-style="h1.css">{{h1.text}}</h1>
+	<p ng-if="p" ng-style="p.css" ng-bind-html="p.text"></p>
+	<a ng-if="a" ng-style="a.css" href="{{a.href}}" class="btn">{{a.text}}</a>
+</div>

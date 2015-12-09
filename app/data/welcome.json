@@ -1,0 +1,39 @@
+{
+	"welcome": {
+		"bgImage": "images/elearning_background.jpg",
+		"elements": {
+			"h1": {
+				"text": "Lexus College E-learning",
+				"css": {
+					"color": "#ffffff",
+					"font-size": "60px",
+					"text-align": "center",
+					"padding-top": "30%"
+				}
+			},
+			"p": {
+				"text": "LEXUS ENFORM SERVICE CONNECT",
+				"css": {
+					"color": "#ffffff",
+					"font-size": "20px",
+					"text-align": "center"
+				}
+			},
+			"a": {
+				"text": "BEGIN",
+				"href": "#/home/chapter_1",
+				"css": {
+					"background-color": "#ffffff",
+					"color": "#333",
+					"font-size": "20px",
+					"text-align": "center",
+					"width": "100px",
+					"margin": "0 auto",
+					"display": "block"
+				}
+			}
+		},
+		"width": 1024,
+		"height": 768
+	}
+}

@@ -1,0 +1,168 @@
+{
+	"chapter_1": {
+		"target" : "capter_1",
+		"title": "Chapter 1",
+		"bgImage": "images/elearning_background.jpg",	
+		"elements": {
+			"h1": {
+				"text": "Lexus College E-learning - Chapter 1",
+				"css": {
+					"color": "#ffffff",
+					"font-size": "60px",
+					"text-align": "center",
+					"padding-top": "30%"
+				}
+			},
+			"p": {
+				"text": "LEXUS ENFORM SERVICE CONNECT CHAPTER 1",
+				"css": {
+					"color": "#ffffff",
+					"font-size": "20px",
+					"text-align": "center"
+				}
+			}
+		},
+		"width": 1024,
+		"height": 768
+	},
+	"chapter_2": {
+		"target" : "capter_2",
+		"title": "Chapter 2",
+		"bgImage": "images/elearning_background.jpg",
+		"questions": [
+			{
+				"type": "single_choice",
+				"title": "What is this?",
+				"answers": [
+					{
+						"title": "This is that"
+					},
+					{
+						"title": "This is this"
+					},
+					{
+						"title": "No Idea"
+					}
+				],
+				"correct": 1
+			},
+			{
+				"type": "single_choice",
+				"title": "What is this? asfasf",
+				"answers": [
+					{
+						"title": "This is that"
+					},
+					{
+						"title": "This is this"
+					},
+					{
+						"title": "No Idea"
+					}
+				],
+				"correct": 1
+			}
+		],
+		"width": 1024,
+		"height": 768
+	},
+	"chapter_3": {
+		"target" : "capter_3",
+		"title": "Chapter 3",
+		"bgImage": "images/elearning_background.jpg",	
+		"questions": [
+			{
+				"type": "drag_drop",
+				"title": "What is this?",
+				"answers": [
+					{
+						"title": "This is that"
+					},
+					{
+						"title": "This is this"
+					},
+					{
+						"title": "No Idea"
+					}
+				],
+				"correct": 1
+			}
+		],
+		"width": 1024,
+		"height": 768
+	},
+	"chapter_4": {
+		"target" : "capter_4",
+		"title": "Chapter 4",
+		"bgImage": "images/elearning_background.jpg",	
+		"audio": {
+			"type": "audio",
+			"url": "data/audio/Chapter1_page1.mp3",
+			"captions": [
+				{
+					"time": 0,
+					"title": "Chapter 1 overview"
+				},
+				{
+					"time": 2,
+					"title": "By the time you completed this lesson you will understand"
+				},
+				{
+					"time": 4,
+					"title": "What service connect is?"
+				},
+				{
+					"time": 6,
+					"title": "Why it is important?"
+				},
+				{
+					"time": 7,
+					"title": "And how it works?"
+				},
+				{
+					"time": 9,
+					"title": "You will also learn how to help gest understand and register for service connect"
+				}
+			]
+		},
+		"width": 1024,
+		"height": 768
+	},
+	"chapter_5": {
+		"target" : "capter_5",
+		"title": "Chapter 5",
+		"bgImage": "images/elearning_background.jpg",	
+		"video": {
+			"type": "video",
+			"url": "data/video/big_buck_bunny_720p_1mb.mp4",
+			"captions": [
+				{
+					"time": 0,
+					"title": "Chapter 1 overview"
+				},
+				{
+					"time": 2,
+					"title": "By the time you completed this lesson you will understand"
+				},
+				{
+					"time": 4,
+					"title": "What service connect is?"
+				},
+				{
+					"time": 6,
+					"title": "Why it is important?"
+				},
+				{
+					"time": 7,
+					"title": "And how it works?"
+				},
+				{
+					"time": 9,
+					"title": "You will also learn how to help gest understand and register for service connect"
+				}
+			]
+		},
+		"width": 1024,
+		"height": 768
+	}
+}
