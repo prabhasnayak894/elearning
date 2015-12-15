@@ -1,9 +1,220 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: hsl(0, 0%, 80%) none repeat scroll 0 0;
+}
+
 .wrapper-welcome, .wrapper-chapters {
-	border: 1px solid #333;
+	/*border: 1px solid #333;*/
 	margin: 0 auto;
 	color: #fff;
+    box-shadow: 0 0 17px 5px hsla(0, 0%, 0%, 0.5);
 }
 
 video {
 	width: 100%;
+}
+
+.wrapper-chapters
+{
+    position: relative;
+}
+
+.wrapper-welcome a
+{
+
+    font-size: 16px;
+    height: 40px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 0;
+    border-radius: 0;
+
+
+}
+h1, .h1, h2, .h2, h3, .h3
+{
+    margin-top: 0px;
+}
+.navigation
+{
+    background-color: hsl(0, 0%, 100%);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+    background-color: hsl(47, 68%, 63%);
+    color: #ffffff;
+}
+.nav-tabs > li > a
+{
+    border-radius: 0;
+    padding: 15px 30px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul, ol
+{
+    list-style-type: none;
+}
+.paddingBox
+{
+    padding: 100px;
+}
+
+.headMargin
+{
+    margin: 20px 0px;
+}
+
+.pocButton
+{
+    background-color: hsl(343, 95%, 47%);
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    height: 40px;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0px;
+
+
+}
+
+.dragButton
+{
+    background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 4px;
+    color: hsl(200, 9%, 20%);
+    font-size: 20px;
+    height: 150px;
+    margin-right: 20px;
+    padding-top: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 252px;
+}
+
+.dragButton:hover, .dragButton:focus, .dragButton:active, .dragButton.active, .open > .dropdown-toggle.btn-primary
+{
+    background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+    color: hsl(202, 8%, 20%);
+}
+
+
+.dropButton
+{
+    background: hsla(202, 79%, 47%, 0.5) none repeat scroll 0 0;
+    border: 1px dashed hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+    height: 250px;
+    margin-top: 50px;
+    padding-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 795px;
+    font-size: 20px;
+}
+
+.controls
+{
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    z-index: 2;
+}
+.controls a
+{
+    cursor: pointer;
+}
+.videoSubtitle ul li
+{
+   display: inline-block;
+    text-align: center;
+}
+
+.videoSubtitle
+{
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.videoScreen
+{
+    margin: 50px 0px;
+}
+
+.subTitle
+{
+    height: 30px;
+}
+.bgNone
+{
+    background: transparent;
+    border: none;
+}
+.audioControl
+{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 2;
+}
+
+.audioBtn
+{
+    background: #000;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+label
+{
+    text-transform: uppercase;
+}
+
+
+.quizLi li
+{
+    margin: 40px 0px;
+}
+
+.quizLi2 li
+{
+    margin: 5px 0px;
+}
+
+
+.quizBottomLine {
+    background-color: hsl(0, 0%, 51%);
+    height: 1px;
+    left: 72px;
+    position: absolute;
+    top: 140px;
+    width: 880px;
+}
+
+.paddingBox2
+{
+    padding: 100px 100px 0px 100px;
 }

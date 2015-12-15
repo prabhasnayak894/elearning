@@ -1,8 +1,12 @@
 <font>
-	<ul>
-		<li class="question-wrapper" ng-repeat="question in questions track by $index" id="question_{{$index}}" ng-init="question_id = $index">
-			<h2>{{question.title}}</h2>
-			<ul>
+	<ul class="paddingBox2 quizLi">
+
+        <h3>SERVICE CONNECT QUIZ &ndash; BENEFITS</h3>
+        <div class="quizBottomLine"></div>
+
+        <li class="question-wrapper" ng-repeat="question in questions track by $index" id="question_{{$index}}" ng-init="question_id = $index">
+			<h2 class="headMargin">{{question.title}}</h2>
+			<ul class="quizLi2">
 				<li ng-repeat="answer in question.answers">
 					<input type="radio" name="answer_{{question_id}}" value="{{$index}}" /> {{answer.title}}
 				</li>
@@ -11,7 +15,7 @@
 			<div ng-if="corrects[question_id] && corrects[question_id] == 'No'">Wrong</div>
 		</li>
 		<li>
-			<input type="submit" value="Submit" ng-click="submit()"/>
+			<input type="submit" value="Submit" ng-click="submit()" class="pocButton"/>
 		</li>
 	</ul>
 </font>

@@ -32,32 +32,32 @@
 		"questions": [
 			{
 				"type": "single_choice",
-				"title": "What is this?",
+				"title": "Name the three main features of Service Connect?",
 				"answers": [
 					{
-						"title": "This is that"
+						"title": "Lexusdrivers.com, mobile apps, and Service Lane Portal"
 					},
 					{
-						"title": "This is this"
+						"title": "Vehicle status alert maintenance, vehicle accident protection, and theft notification"
 					},
 					{
-						"title": "No Idea"
+						"title": " Vehicle health reports, maintenance notifications, and vehicle alert notifications. "
 					}
 				],
 				"correct": 1
 			},
 			{
 				"type": "single_choice",
-				"title": "What is this? asfasf",
+				"title": "Service Connect links the Guest, the dealer, and the vehicle in ways we have never seen before? ",
 				"answers": [
 					{
-						"title": "This is that"
+                        "title": " Vehicle health reports, maintenance notifications, and vehicle alert notifications. "
 					},
 					{
-						"title": "This is this"
+                        "title": "Lexusdrivers.com, mobile apps, and Service Lane Portal"
 					},
 					{
-						"title": "No Idea"
+                        "title": "Vehicle status alert maintenance, vehicle accident protection, and theft notification"
 					}
 				],
 				"correct": 1
@@ -73,16 +73,16 @@
 		"questions": [
 			{
 				"type": "drag_drop",
-				"title": "What is this?",
+				"title": "Drop Here",
 				"answers": [
 					{
-						"title": "This is that"
+						"title": "Drag1"
 					},
 					{
-						"title": "This is this"
+                        "title": "Drag2"
 					},
 					{
-						"title": "No Idea"
+                        "title": "Drag3"
 					}
 				],
 				"correct": 1

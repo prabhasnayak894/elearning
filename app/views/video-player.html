@@ -1,21 +1,23 @@
 <div>
 	<section class="video" ng-video>
-		<section vi-controls>
-			<a vi-controls-play>Play</a>
-			<a vi-controls-pause>Pause</a>
-			<a vi-full-screen-toggle>Toggle Full-Screen!</a>
+		<section vi-controls class="controls">
+			<a vi-controls-play><img src="images/playIcon.png"> </a>
+			<a vi-controls-pause><img src="images/pauseIcon.png"></a>
+			<a vi-full-screen-toggle><img src="images/fullScreen.png"></a>
 		</section>
 		<section vi-buffer></section>
-		<section vi-feedback>
+
+
+		<section vi-feedback class="videoSubtitle">
 			<ul>
 				<li>Time: {{currentTime | number:2}}s / {{duration | number:2}}s</li>
 				<li>Volume: {{volume}}</li>
 				<li>Buffered: {{buffered}}%</li>
 				<li>Loading: {{loading}}</li>
 				<li>Playing: {{playing}}</li>
-				<li>
-					<label>Caption</label>
-					<div ng-repeat="caption in video_json.captions" ng-if="currentTime >= caption.start_time && currentTime < caption.end_time">
+				<li style="display: block" class="subTitle">
+					<!--<label>Caption</label>-->
+					<div   ng-repeat="caption in video_json.captions" ng-if="currentTime >= caption.start_time && currentTime < caption.end_time">
 						{{caption.title}}
 					</div>
 				</li>
@@ -23,6 +25,6 @@
 		</section>
 
 
-		<video vi-screen></video>
+		<video vi-screen class="videoScreen"></video>
 	</section>
 </div>

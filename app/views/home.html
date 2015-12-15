@@ -1,11 +1,20 @@
 <div class="wrapper-chapters" ng-style="wrapper_style">
 	<div class="navigation" navigation>
 		<ul class="nav nav-tabs">
+
+            <li>
+                <img src="images/lexus-logo.png">
+            </li>
+
 			<li role="presentation" ng-repeat="(key, chapter) in chapters" ng-class="{'active': $index == currentChapter-1}">
 				<a href="javascript: void(0)" ng-click="openChapter($index + 1)">{{chapter.title}}</a>
 			</li>
 		</ul>
 	</div>
+
+
+
+
 	<div ng-if="currentChapter == 1">
 		<h1 ng-if="h1" ng-style="h1.css">{{h1.text}}</h1>
 		<p ng-if="p" ng-style="p.css" ng-bind-html="p.text"></p>
@@ -22,4 +31,6 @@
 	<div ng-if="currentChapter == 5">
 		<div class="questions-wrapper" video-player video="{{chapter.video}}"> </div>
 	</div>
+
+
 </div>

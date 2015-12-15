@@ -8,7 +8,8 @@
 					"color": "#ffffff",
 					"font-size": "60px",
 					"text-align": "center",
-					"padding-top": "30%"
+					"padding-top": "30%",
+                    "margin-top": "0px"
 				}
 			},
 			"p": {
@@ -23,12 +24,12 @@
 				"text": "BEGIN",
 				"href": "#/home/chapter_1",
 				"css": {
-					"background-color": "#ffffff",
-					"color": "#333",
+					"background-color": "hsl(343, 95%, 47%)",
+					"color": "#ffffff",
 					"font-size": "20px",
 					"text-align": "center",
 					"width": "100px",
-					"margin": "0 auto",
+					"margin": "50px auto",
 					"display": "block"
 				}
 			}
